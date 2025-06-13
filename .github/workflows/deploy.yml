@@ -29,5 +29,5 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/flask-template:latest
 
-      - name: Placeholder: Deploy to ECS
+      - name: Deploy to ECS (placeholder)
         run: echo "ECS deploy"
