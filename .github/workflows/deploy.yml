@@ -30,4 +30,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/flask-template:latest
 
       - name: Placeholder: Deploy to ECS
-        run: echo "ECS deploy "
+        run: echo "ECS deploy"
